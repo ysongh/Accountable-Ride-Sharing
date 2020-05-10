@@ -9,7 +9,7 @@ import Result2 from './Result2';
 
 class Questionnaire extends Component{
     state = {
-        step: 1
+        step: 0
     }
 
     nextStep = (num) => {
