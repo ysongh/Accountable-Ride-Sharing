@@ -50,6 +50,11 @@ class Questionnaire extends Component{
                     <Result2
                         nextStep={this.nextStep}/>
                 );
+            default:
+                return(
+                    <Start
+                        nextStep={this.nextStep}/>
+                );
         }
     }
 }

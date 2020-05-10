@@ -26,6 +26,11 @@ label{
     margin-bottom: 1rem;
 }
 
+.logo{
+    display: block;
+    margin: auto;
+}
+
 .btn{
     display: block;
     background-color: #969696;
@@ -36,5 +41,17 @@ label{
     font-size: 1.5rem;
     color: white;
     cursor: pointer;
-
 }
+
+.btn-link{
+    display: block;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 18px;
+    text-align: end;
+    padding: 1.2rem 2rem .4rem 2rem;
+    text-decoration: none;
+    font-size: 2rem;
+    color: black;
+}
+
+.mt-1{ margin-top: 1rem; }
