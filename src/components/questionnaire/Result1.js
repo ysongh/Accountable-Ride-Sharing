@@ -8,7 +8,7 @@ const Result1 = ({ nextStep }) => {
         <div>
             <h1>{res1}</h1>
             
-            <button onClick={() => nextStep(1)}>Return</button>
+            <button onClick={() => nextStep(0)}>Return</button>
         </div>
     );
 }

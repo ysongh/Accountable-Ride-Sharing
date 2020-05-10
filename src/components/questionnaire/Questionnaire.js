@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import Start from './Start';
 import Q1 from './Q1';
 import Q2 from './Q2';
 import Q3 from './Q3';
@@ -8,7 +9,7 @@ import Result2 from './Result2';
 
 class Questionnaire extends Component{
     state = {
-        step: 1
+        step: 0
     }
 
     nextStep = (num) => {
@@ -19,6 +20,11 @@ class Questionnaire extends Component{
 
     render(){
         switch(this.state.step){
+            case 0:
+                return(
+                    <Start
+                        nextStep={this.nextStep}/>
+                );
             case 1:
                 return(
                     <Q1
