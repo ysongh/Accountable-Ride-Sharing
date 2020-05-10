@@ -5,10 +5,10 @@ import { res1 } from '../Data';
 const Result1 = ({ nextStep }) => {
 
     return(
-        <div>
-            <h1>{res1}</h1>
+        <div className="container">
+            <h1 className="title">{res1}</h1>
             
-            <button onClick={() => nextStep(0)}>Return</button>
+            <button className="btn" onClick={() => nextStep(0)}>Return</button>
         </div>
     );
 }

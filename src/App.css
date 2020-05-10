@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+}
+
+body{
+    margin: auto;
+}
+
+input{
+    width: 1rem;
+}
+
+label{
+    font-size: 1.5rem;
+    margin-left: 3px;
+    margin-right: 1.5rem;
+}
+
+.container{
+    margin: auto;
+    padding: 1rem;
+    max-width: 600px;
+}
+
+.title{
+    margin-bottom: 1rem;
+}
+
+.btn{
+    display: block;
+    background-color: #969696;
+    border-radius: 25px;
+    padding: .4rem 2rem;
+    margin-top: 1rem;
+    float: right;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+
+}
